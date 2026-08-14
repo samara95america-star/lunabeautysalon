@@ -10,14 +10,13 @@ pipeline {
     }
 
     environment {
-PATH = "/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:${env.PATH}"
         AWS_REGION     = 'us-east-1'
         AWS_ACCOUNT_ID = '584612873567'
 
         ECR_REPOSITORY = 'lunabeautysalon'
 
         ECS_CLUSTER    = 'lunabeautysalon'
-        ECS_SERVICE    = 'lunabeautysalon'
+        ECS_SERVICE    = 'lunabeautysalon-service'
         TASK_FAMILY    = 'lunabeautysalon'
 
         CONTAINER_NAME = 'lunabeautysalon'
