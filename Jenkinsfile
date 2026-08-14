@@ -17,7 +17,7 @@ PATH = "/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:${env.PATH}"
         ECR_REPOSITORY = 'lunabeautysalon'
 
         ECS_CLUSTER    = 'lunabeautysalon'
-        ECS_SERVICE    = 'lunabeautysalon-service'
+        ECS_SERVICE    = 'lunabeautysalon'
         TASK_FAMILY    = 'lunabeautysalon'
 
         CONTAINER_NAME = 'lunabeautysalon'
