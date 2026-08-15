@@ -17,7 +17,7 @@ pipeline {
         ECR_REPOSITORY = 'lunabeautysalon'
 
         ECS_CLUSTER    = 'lunabeautysalon'
-        ECS_SERVICE    = 'lunabeautysalon-service-195whtsl'
+        ECS_SERVICE    = 'lunabeautysalon-service-0a48d2ci'
         TASK_FAMILY    = 'lunabeautysalon'
 
         CONTAINER_NAME = 'lunabeautysalon'
